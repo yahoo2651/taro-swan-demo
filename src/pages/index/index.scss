@@ -1,0 +1,15 @@
+.selector {
+    display: flex;
+    align-items: center;
+
+    &__item {
+        padding: 10px 36px;
+        margin-right: 20px;
+        background-color: #F3F3F3;
+
+        &.active {
+            color: red;
+            background-color: #FFF0F0;
+        }
+    }
+}
